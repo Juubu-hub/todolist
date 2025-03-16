@@ -1,0 +1,94 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+#outer{
+  display: flex;
+  justify-content: center;
+}
+.class{
+  height: 10px;
+  width: 10px;
+  background-color: black;
+} 
+.container {
+  background-color: rgb(221, 187, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+  padding-bottom: 400px;
+
+  padding: 10px 20px 10px 20px;
+}
+.input input {
+  background-color: #e0e0e0;
+  border: 0px;
+  padding: 10px;
+  border-radius: 18px;
+}
+.input button {
+  background-color: orange;
+  border: 0px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 18px;
+  color: white;
+  position: relative;
+  right: 40px;
+}
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-left: 10px;
+}
+.task {
+  display: flex;
+}
+.checks {
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+  border: 1px solid black;
+  align-self: center;
+  margin-right: 10px;
+}
+h5 {
+  font-size: 15px;
+  font-weight: 200;
+  color: #a0a0a0;
+
+}
+.task button {
+  border: 0px;
+  background-color: white;
+
+
+}
+.taskContainer div {
+  display: flex;
+}
+
+.checkToggle{
+    background-color: orange;
+}
+
+.taskNameToggle{
+    text-decoration: line-through;
+    color: #a0a0a0;
+}
