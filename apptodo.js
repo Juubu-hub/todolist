@@ -34,7 +34,7 @@ button.addEventListener("click", () => {
 
 card.addEventListener("click", (e) => {
   const checks = e.target;
-  console.dir(e.target);
+  console.dir(checks);
 
   if (e.target.classList.contains("checks")) {
     e.target.classList.toggle("checkToggle");
